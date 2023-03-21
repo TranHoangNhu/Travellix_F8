@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Travelix</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo_title.ico">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav_top">
+            <div class="container d-flex justify-content-between">
+                <div class="nav_top__info">
+                    <ul>
+                        <li><a href="#">+84 945 000 917</a></li>
+                        <li class="mx-2"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="mx-2"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="mx-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="mx-2"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                        <li class="mx-2"><a href="#"><i class="fab fa-behance"></i></a></li>
+                        <li class="mx-2"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="nav_top__user">
+                    <ul>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">|</a></li>
+                        <li><a href="#">REGISTER</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container d-flex justify-content-between">
+                <div class="logoNavBar">
+                    <a href="/" class="d-flex">
+                        <div>
+                            <img src="./images/logo.webp" alt="logoNavBar" width="45">
+                        </div>
+                        <p>TRAVELIX</p>
+                    </a>
+                </div>
+                <div class="navbar_navigator">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search_area">
+                    <h4><i class="fas fa-search"></i></h4>
+                </div>
+            </div>
+        </nav>
+        <div class="middle_title_header">
+            <p>DISCOVER</p>
+            <p>the world</p>
+        </div>
+        <div class="button_header">
+            <div class="container">
+                <button>EXPLORE NOW <span><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i
+                            class="fas fa-circle"></i></span></button>
+            </div>
+        </div>
+        <div class="header_booking">
+            <div class="container">
+                <div class="item">
+                    <p><i class="fas fa-building"></i></p>
+                    <p>HOTELS</p>
+                </div>
+                <div class="item">
+                    <p><i class="fas fa-bus-alt"></i></p>
+                    <p>RENTALS</p>
+                </div>
+                <div class="item">
+                    <p><i class="fas fa-plane-departure"></i></p>
+                    <p>FLIGHTS</p>
+                </div>
+                <div class="item">
+                    <p><i class="fas fa-mountain"></i></p>
+                    <p>TRIPS</p>
+                </div>
+                <div class="item">
+                    <p><i class="fas fa-ship"></i></p>
+                    <p>CUISES</p>
+                </div>
+                <div class="item">
+                    <p><i class="fas fa-skiing"></i></p>
+                    <p>ACTIVITIES</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="input_booking">
+            <style>
+                /* custom css bootstrap -> class .form-control */
+                .form-control:focus {
+                    color: #929191;
+                }
+
+                /* custom css bootstrap -> input */
+                input.form-control,
+                select.form-select {
+                    border-radius: 0;
+                }
+
+                input.form-control:focus {
+                    border-color: transparent;
+                    box-shadow: none;
+                }
+            </style>
+            <div class="container">
+                <form>
+                    <div class="ms-4 mb-3">
+                        <label for="destination" class="form-label">DESTINATION</label>
+                        <input type="email" class="form-control" id="destination" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="checkin" class="form-label">CHECK IN</label>
+                        <input type="email" class="form-control" id="checkin" placeholder="DD-MM-YYYY" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="checkout" class="form-label">CHECK OUT</label>
+                        <input type="email" class="form-control" id="checkout" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="checkout" class="form-label">ADULTS</label>
+                        <select class="form-select">
+                            <option selected>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="checkout" class="form-label">CHILDRENS</label>
+                        <select class="form-select">
+                            <option selected>0</option>
+                            <option>01</option>
+                            <option>02</option>
+                        </select>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <button>SEARCH <span><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i
+                                    class="fas fa-circle"></i></span></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="bestTour mt-5">
+            <div class="container">
+                <h2 class="mb-4">We have the best tours</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, labore? Qui corrupti
+                    dignissimos omnis nisi, asperiores in ad odit consequuntur reprehenderit modi maiores veniam ipsum.
+                </p>
+                <div class="bestTour__card mb-5">
+                    <div class="item1">
+                        <div class="bestTour__card__calendar">
+                            <span>May 15th - July 01st</span>
+                        </div>
+                        <div class="bestTour__card__country">
+                            <h2>Mauritius</h2>
+                            <span>From $1450</span>
+                            <div class="bestTour__card__country__title__rating mt-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="bestTour__card__button">
+                            <button>SEE MORE <span><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i
+                                        class="fas fa-circle"></i></span></button>
+                        </div>
+                    </div>
+                    <div class="item1">
+                        <div class="bestTour__card__calendar">
+                            <span>May 15th - July 01st</span>
+                        </div>
+                        <div class="bestTour__card__country">
+                            <div class="bestTour__card__country__title">
+                                <h2>Greece</h2>
+                                <span>From $1450</span>
+                                <div class="bestTour__card__country__title__rating mt-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestTour__card__button">
+                            <button>SEE MORE <span><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i
+                                        class="fas fa-circle"></i></span></button>
+                        </div>
+                    </div>
+                    <div class="item1">
+                        <div class="bestTour__card__calendar">
+                            <span>May 15th - July 01st</span>
+                        </div>
+                        <div class="bestTour__card__country">
+                            <div class="bestTour__card__country__title">
+                                <h2>Scotland</h2>
+                                <span>From $1450</span>
+                                <div class="bestTour__card__country__title__rating mt-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestTour__card__button">
+                            <button>SEE MORE <span><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i
+                                        class="fas fa-circle"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="deluxe_package">
+            <div class="container">
+                <h2>MALDIVES DELUXE PACKAGE</h2>
+                <div class="deluxe_package__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>  <!--  -->
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, labore? Qui corrupti
+                    dignissimos omnis nisi, asperiores in ad odit consequuntur reprehenderit modi maiores veniam ipsum.
+                </p>
+                <div class="deluxe_package__button">
+                    <button>SEE MORE <span><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i
+                                class="fas fa-circle"></i></span></button>
+                </div>
+            </div>
+        </section>
+        <section class="best_offers">
+
+        </section>
+    </main>
+    <!-- <footer>
+
+    </footer> -->
+    <div class="back-to-top-button d-none">
+        <span><i class="fas fa-angle-up"></i></span>
+    </div>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="./main.js"></script>
+</body>s
+
+</html>
