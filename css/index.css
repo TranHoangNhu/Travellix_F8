@@ -572,3 +572,299 @@ section.best_offers .item_right .item_right_btn a {
   font-weight: bold;
   transition: all 0.2s ease;
 }
+/* end section best_offers */
+/* section.feedback{
+  position: relative;
+} */
+section.feedback {
+  margin: 100px 0;
+}
+section.feedback h2 {
+  text-align: center;
+  margin: 100px 0;
+  font-weight: bold;
+}
+section.feedback .item {
+  margin: 0 auto;
+  background: url("../images/feedback_section_bg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 537px;
+  padding: 0 207px;
+}
+section.feedback .item:nth-child(2) {
+  background: url("../images/feedback_section_bg2.png");
+  background-position: top center;
+}
+section.feedback .item:last-child {
+  background: url("../images/feedback_section_bg3.png");
+  background-position: top center;
+}
+section.feedback .item_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa9e1b;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  position: relative;
+  left: -170px;
+  top: -35px;
+}
+section.feedback .item_bottom {
+  background-color: rgba(49, 18, 75, 0.8);
+  min-width: 414px;
+  min-height: 100px;
+  position: relative;
+  left: -207px;
+  bottom: -225px;
+}
+section.feedback .author_fb {
+  display: inline-block;
+  background-color: #fff;
+  position: relative;
+  top: -40px;
+  left: 40px;
+  padding: 10px 20px;
+}
+section.feedback .author_fb h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section.feedback .content_fb {
+  padding: 4px 32px 40px 32px;
+}
+
+section.feedback .content_fb p {
+  font-weight: bold;
+  font-size: 20px;
+}
+section.feedback .content_fb p,
+section.feedback .content_fb span {
+  color: #fff;
+}
+section.trending_Hotel {
+  border-top: 2px solid #000;
+}
+section.trending_Hotel h2 {
+  text-align: center;
+  margin: 100px 0;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+section.trending_Hotel .item {
+  display: flex;
+  margin-bottom: 50px;
+}
+section.trending_Hotel .info_hotel {
+  margin-left: 15px;
+}
+section.trending_Hotel .info_hotel a {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+section.trending_Hotel .info_hotel a:hover {
+  color: #fa9e1b;
+}
+section.trending_Hotel .info_hotel p {
+  color: #fa9e1b;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+section.trending_Hotel .info_hotel span {
+  text-transform: uppercase;
+  color: #929191;
+  font-size: 12px;
+}
+section.getInTouch {
+  min-height: 800px;
+  background: url("../images/getintouch_bg.png");
+  background-size: cover;
+  background-position: center center;
+}
+section.getInTouch h2 {
+  margin: 60px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+section.getInTouch .container {
+  padding: 0 40px;
+}
+section.getInTouch form {
+  min-width: 200px;
+  min-height: 700px;
+  background: linear-gradient(to right, #fa9e1b, #8d4fff);
+  border-radius: 35px;
+  margin-top: 30px;
+}
+section.getInTouch form input:first-child {
+  margin-right: 30px;
+}
+section.getInTouch form input,
+section.getInTouch form textarea {
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #fff;
+  padding-left: 0;
+  padding-bottom: 15px;
+}
+section.getInTouch form input:focus-visible,
+section.getInTouch form textarea:focus-visible {
+  outline: none;
+}
+section.getInTouch form input::placeholder,
+section.getInTouch form textarea::placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+section.getInTouch form button {
+  margin-top: 14px;
+  padding: 16px 18px;
+  border: none;
+  border-radius: 36px;
+  background-color: #31124b;
+  transform: scale(1);
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.4s ease-out;
+  text-transform: uppercase;
+}
+
+section.getInTouch form button:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+section.getInTouch form button span i {
+  font-size: 6px;
+  vertical-align: middle;
+  padding: 0 3px;
+}
+section.getInTouch form button span i:nth-child(2) {
+  opacity: 0.6;
+}
+section.getInTouch form button span i:last-child {
+  opacity: 0.4;
+}
+/* footer */
+footer.footer {
+  width: 100%;
+  min-height: 500px;
+  background-color: #31124b;
+}
+footer.footer .logoNavBar {
+  display: flex;
+}
+footer.footer .row {
+  padding-top: 50px !important;
+}
+footer.footer .footer_description {
+  color: #fff;
+  font-weight: bold;
+  line-height: 2.3;
+}
+footer.footer .logoNavBar p {
+  padding-left: 12px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.2 !important;
+}
+footer.footer .footer_social i {
+  margin-right: 15px;
+  border: 1px solid #fa9e1b;
+  padding: 10px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+footer.footer .footer_social i:hover,
+footer.footer .footer_social a:hover i {
+  color: #fbb53d;
+}
+footer.footer .footer_social a:nth-child(2) i {
+  padding: 10px 13px;
+}
+footer.footer .blogPost {
+  padding-left: 30px;
+}
+footer.footer .blogPost h2 {
+  margin-top: 35px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+footer.footer .blogPost .item_inner {
+  display: flex;
+  margin-top: 15px;
+}
+footer.footer .blogPost .item_inner .item_inner__info {
+  margin-left: 15px;
+}
+footer.footer .blogPost .item_inner .item_inner__info p {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+footer.footer .blogPost .item_inner .item_inner__info span {
+  color: #fa9e1b;
+}
+footer.footer .tags h2 {
+  margin-top: 35px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+footer.footer .tags ul li {
+  display: inline-block;
+  margin-top: 30px;
+}
+footer.footer .tags .tag_info {
+  color: #fff;
+  border: 1px solid #fbb53d;
+  padding: 10px 30px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+footer.footer .tags .tag_info:hover {
+  background-color: #fbb53d;
+}
+footer.footer .contactInfo h2 {
+  margin-top: 35px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+footer.footer .contactInfo ul li {
+  margin-top: 30px;
+}
+footer.footer .contactInfo ul li img {
+  margin-right: 10px;
+}
+footer.footer .contactInfo ul li a {
+  transition: all 0.3s ease;
+}
+footer.footer .contactInfo ul li a:hover {
+  color: #fbb53d;
+}
+footer.footer .footer_bottom {
+  text-align: center;
+  color: #cacaca;
+  font-weight: bold;
+  margin-top: 70px;
+}
+footer.footer .footer_bottom a {
+  color: #fa9e1b;
+  transition: all 0.2s ease;
+}
+footer.footer .footer_bottom a:hover {
+  opacity: 0.8;
+}
