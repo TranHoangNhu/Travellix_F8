@@ -2,6 +2,7 @@
   font-family: "beyond_the_mountains";
   src: url("../fonts/beyond_the_mountains.ttf") format("truetype");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@
   font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
+
 /* back-top-top-button */
 .back-to-top-button {
   position: fixed;
@@ -22,27 +24,33 @@
   transform: scale(1);
   transition: all 300ms ease;
 }
+
 .back-to-top-button span i {
   padding: 10px 16px;
   color: #fff;
   font-size: 32px;
 }
+
 .back-to-top-button:hover {
   transform: scale(1.07);
   opacity: 0.9;
 }
+
 /* end back-to-top-button */
 
 a {
   text-decoration: none;
   color: #fff;
 }
+
 ul {
   padding-left: 0;
 }
+
 ul li {
   list-style-type: none;
 }
+
 /* header */
 header.header {
   background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)),
@@ -50,34 +58,41 @@ header.header {
   background-size: cover;
   background-position: center center;
 }
+
 /* navtop */
 .nav_top {
   background-color: #350a4e;
   height: 36px;
 }
+
 .nav_top a:hover {
   color: #fa9e1b;
 }
+
 .nav_top__info ul,
 .nav_top__user ul {
   display: flex;
   margin-top: 8px;
 }
+
 .nav_top__info ul li,
 .nav_top__user ul li {
   display: flex;
   margin-top: 4px;
   font-size: 10px;
 }
+
 .nav_top__info ul li:first-child {
   margin-right: 40px;
 }
+
 /* navbar */
 nav.navbar {
   background: rgba(54, 19, 84, 0.6);
   /* opacity: 1; */
   min-height: 150px;
 }
+
 /* 
   class custom jquery navbar fixed when scroll
 */
@@ -92,12 +107,14 @@ nav.navbar {
   padding-top: 15px !important;
   transition: all 1s ease;
 }
+
 /*
   end css custom jquery navbar fixed 
 */
 .logoNavBar {
   display: flex;
 }
+
 .logoNavBar p {
   /* font-family: "beyond_the_mountains"; */
   padding-top: 24px;
@@ -108,16 +125,19 @@ nav.navbar {
   /* letter-spacing: .8rem;
   text-transform: lowercase; */
 }
+
 .navbar_navigator ul {
   display: flex;
   color: #fff;
 }
+
 .navbar_navigator ul li {
   margin: 0 20px;
   text-transform: uppercase;
   font-weight: 600;
   position: relative;
 }
+
 .navbar_navigator a::after {
   content: "";
   display: block;
@@ -130,36 +150,44 @@ nav.navbar {
   opacity: 0;
   transition: all 500ms ease;
 }
+
 .navbar_navigator a:hover::after {
   opacity: 1;
 }
+
 .navbar_navigator a:hover {
   color: #fff;
 }
+
 .search_area {
   min-height: 50px;
   color: #fff;
 }
+
 .search_area h4:hover {
   cursor: pointer;
   color: #fa9e1b;
 }
+
 .middle_title_header p {
   color: #fff;
   font-weight: bold;
   text-align: center;
   font-size: 100px;
 }
+
 .middle_title_header p:nth-child(2) {
   font-family: "beyond_the_mountains";
   letter-spacing: 0.2rem;
   font-size: 85px;
   margin-top: -20px;
 }
+
 /* header -> section button explorer */
 .button_header {
   text-align: center;
 }
+
 .button_header button {
   padding: 16px 48px;
   border: none;
@@ -172,78 +200,96 @@ nav.navbar {
   transition: all 0.5s ease;
   background-size: 200%;
 }
+
 .button_header button span i {
   font-size: 6px;
   vertical-align: middle;
   padding: 0 3px;
 }
+
 .button_header button span i:nth-child(2) {
   opacity: 0.6;
 }
+
 .button_header button span i:last-child {
   opacity: 0.4;
 }
+
 .button_header button:hover {
   transform: scale(1.05);
   /* background: linear-gradient(225deg, #fa9e1b, #8d4fff); */
   background-position: right center;
 }
+
 /* END: header -> section button explorer */
 /* header -> section header booking */
 .header_booking {
   margin-top: 310px;
 }
+
 .header_booking .container {
   display: flex;
   justify-content: space-between;
 }
+
 .header_booking .item {
   display: flex;
   background-color: #fff;
   align-items: center;
 }
+
 .header_booking .item {
   padding: 35px 65px;
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
 .header_booking .item:hover {
   background-color: #fa9e1b;
 }
+
 .header_booking .item:hover p,
 .header_booking .item:hover p i {
   color: #fff;
 }
+
 .header_booking .item p {
   margin-bottom: 0;
   font-weight: 700;
 }
+
 .header_booking .item p i {
   color: #fa9e1b;
   padding-right: 8px;
 }
+
 .header_booking .item:first-child {
   background-color: #fa9e1b;
   border-top-left-radius: 90px;
 }
+
 .header_booking .item:first-child p,
 .header_booking .item:first-child p i {
   color: #fff;
 }
+
 .header_booking .item:last-child {
   border-top-right-radius: 90px;
 }
+
 /* END: header -> section header booking */
 
 /* main -> section input booking */
 section.input_booking {
   background: linear-gradient(to right, #fa9e1b, #8d4fff);
 }
+
 section.input_booking form {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
 }
+
 section.input_booking form button {
   margin-top: 14px;
   padding: 16px 48px;
@@ -256,17 +302,21 @@ section.input_booking form button {
   font-weight: bold;
   transition: all 0.4s ease-out;
 }
+
 section.input_booking form button span i {
   font-size: 6px;
   vertical-align: middle;
   padding: 0 3px;
 }
+
 section.input_booking form button span i:nth-child(2) {
   opacity: 0.6;
 }
+
 section.input_booking form button span i:last-child {
   opacity: 0.4;
 }
+
 section.input_booking form button:hover {
   transform: scale(1.05);
   opacity: 0.7;
@@ -277,23 +327,28 @@ section.input_booking form label {
   font-size: 12px;
   font-weight: bold;
 }
+
 section.input_booking form input,
 section.input_booking form select {
   padding: 12px;
   min-width: 100px;
   color: #929191;
 }
+
 section.input_booking form #destination {
   width: 400px;
 }
+
 section.input_booking form #checkin {
   width: 200px;
 }
+
 section.input_booking form #checkin::placeholder {
   font-size: 14px;
   color: #757575;
   font-weight: bold;
 }
+
 section.input_booking form #checkout {
   width: 220px;
 }
@@ -303,10 +358,12 @@ section.bestTour h2,
 section.bestTour p {
   text-align: center;
 }
+
 section.bestTour h2 {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 section.bestTour p {
   font-style: italic;
   font-size: 20px;
@@ -316,17 +373,19 @@ section.bestTour p {
   letter-spacing: 0.1rem;
   margin-bottom: 50px;
 }
+
 section.bestTour .bestTour__card {
   display: flex;
   justify-content: space-evenly;
 }
+
 section.bestTour .bestTour__card .item1 {
   /* background-color: #fa9e1b; */
   margin: 0 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
   text-align: center;
   width: 100%;
   height: 450px;
@@ -335,6 +394,7 @@ section.bestTour .bestTour__card .item1 {
   background-size: cover !important;
   background: center center;
   /* padding: 120px; */
+  background-repeat: no-repeat !important;
 }
 
 section.bestTour .bestTour__card .item1:nth-child(2) {
@@ -346,35 +406,37 @@ section.bestTour .bestTour__card .item1:nth-child(3) {
   background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)),
     url("../images/bestTour_bg_item3.webp") !important;
 }
+
 section.bestTour .bestTour__card .item1 .bestTour__card__country h2 {
   color: #fff;
   font-size: 4rem;
   font-weight: bold;
 }
+
 section.bestTour .bestTour__card .item1 .bestTour__card__country span {
   color: #fff;
 }
+
 .bestTour__card__country .bestTour__card__country__title__rating {
   color: #757575;
 }
+
 .bestTour__card__country .bestTour__card__country__title__rating i:first-child {
   color: #ffeb8d;
 }
-.bestTour__card__country
-  .bestTour__card__country__title__rating
-  i:nth-child(2) {
+
+.bestTour__card__country .bestTour__card__country__title__rating i:nth-child(2) {
   color: #fed46b;
 }
-.bestTour__card__country
-  .bestTour__card__country__title__rating
-  i:nth-child(3) {
+
+.bestTour__card__country .bestTour__card__country__title__rating i:nth-child(3) {
   color: #fbb53d;
 }
-.bestTour__card__country
-  .bestTour__card__country__title__rating
-  i:nth-child(4) {
+
+.bestTour__card__country .bestTour__card__country__title__rating i:nth-child(4) {
   color: #fa9e1b;
 }
+
 section.bestTour .bestTour__card .item1 .bestTour__card__calendar {
   margin-top: 30px;
   background-color: #fa9e1b;
@@ -382,9 +444,11 @@ section.bestTour .bestTour__card .item1 .bestTour__card__calendar {
   padding: 3px 50px;
   border-radius: 30px;
 }
+
 section.bestTour .bestTour__card .item1 .bestTour__card__button {
   margin-bottom: 20px;
 }
+
 section.bestTour .bestTour__card .item1 button {
   padding: 16px 48px;
   border: none;
@@ -397,29 +461,32 @@ section.bestTour .bestTour__card .item1 button {
   transition: all 0.5s ease;
   background-size: 200%;
 }
+
 section.bestTour .bestTour__card .item1 button span i {
   font-size: 6px;
   vertical-align: middle;
   padding: 0 3px;
 }
+
 section.bestTour .bestTour__card .item1 button span i:nth-child(2) {
   opacity: 0.6;
 }
+
 section.bestTour .bestTour__card .item1 button span i:last-child {
   opacity: 0.4;
 }
+
 section.bestTour .bestTour__card .item1 button:hover {
   transform: scale(1.05);
   /* background: linear-gradient(225deg, #fa9e1b, #8d4fff); */
   background-position: right center;
 }
+
 /* section deluxe package */
 section.deluxe_package {
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(250, 157, 27, 0.5),
-      rgba(141, 79, 255, 0.5)
-    ),
+      rgba(141, 79, 255, 0.5)),
     url(../images/background_sea.jpg);
   width: 100%;
   display: flex;
@@ -427,16 +494,19 @@ section.deluxe_package {
   align-items: center;
   background-attachment: fixed;
 }
+
 section.deluxe_package .container {
   text-align: center;
   background-color: #fff;
   margin: 150px 0;
 }
+
 section.deluxe_package h2 {
   margin-top: 50px;
   font-weight: bold;
   font-size: 2rem;
 }
+
 section.deluxe_package p {
   font-style: italic;
   font-size: 14px;
@@ -446,28 +516,36 @@ section.deluxe_package p {
   letter-spacing: 0.1rem;
   margin-bottom: 50px;
 }
+
 section.deluxe_package .deluxe_package__rating {
   margin: 15px 0;
   color: #757575;
 }
+
 section.deluxe_package .deluxe_package__rating i {
   font-size: 20px !important;
 }
+
 section.deluxe_package .deluxe_package__rating i:first-child {
   color: #ffeb8d;
 }
+
 section.deluxe_package .deluxe_package__rating i:nth-child(2) {
   color: #fed46b;
 }
+
 section.deluxe_package .deluxe_package__rating i:nth-child(3) {
   color: #fbb53d;
 }
+
 section.deluxe_package .deluxe_package__rating i:nth-child(4) {
   color: #fa9e1b;
 }
+
 section.deluxe_package .deluxe_package__button {
   margin: 50px 0;
 }
+
 section.deluxe_package .deluxe_package__button button {
   padding: 16px 48px;
   border: none;
@@ -480,21 +558,26 @@ section.deluxe_package .deluxe_package__button button {
   transition: all 0.5s ease;
   background-size: 200%;
 }
+
 section.deluxe_package .deluxe_package__button button span i {
   font-size: 6px;
   vertical-align: middle;
   padding: 0 3px;
 }
+
 section.deluxe_package .deluxe_package__button button span i:nth-child(2) {
   opacity: 0.6;
 }
+
 section.deluxe_package .deluxe_package__button button span i:last-child {
   opacity: 0.4;
 }
+
 section.deluxe_package .deluxe_package__button button:hover {
   transform: scale(1.05);
   background-position: right center;
 }
+
 /* end main -> section best tour */
 
 /* section best_offers */
@@ -502,9 +585,11 @@ section.best_offers {
   background-color: #f3f6f9;
   padding: 90px 0;
 }
+
 section.best_offers .item {
   margin-top: 30px;
 }
+
 section.best_offers h2 {
   text-align: center;
   font-weight: bold;
@@ -512,9 +597,11 @@ section.best_offers h2 {
   text-transform: uppercase;
   margin-bottom: 100px;
 }
+
 section.best_offers .item_left img {
   width: 100%;
 }
+
 section.best_offers .item_left span {
   padding: 8px 30px;
   background-color: #fa9e1b;
@@ -527,51 +614,64 @@ section.best_offers .item_left span {
   left: 0;
   bottom: 65px;
 }
+
 section.best_offers .item_right {
   color: #929191;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
 section.best_offers .item_right .item_right_pricing {
   margin-top: -24px;
 }
+
 section.best_offers .item_right .item_right_pricing h3 {
   display: inline-block;
   font-size: 2.3rem;
   font-weight: bold;
   color: #fbb53d;
 }
+
 section.best_offers .item_right .item_right_btn a:hover {
   color: #fa9e1b;
 }
+
 section.best_offers .best_offers_rating {
   color: #757575;
 }
+
 section.best_offers .best_offers_rating i:first-child {
   color: #ffeb8d;
 }
+
 section.best_offers .best_offers_rating i:nth-child(2) {
   color: #fed46b;
 }
+
 section.best_offers .best_offers_rating i:nth-child(3) {
   color: #fbb53d;
 }
+
 section.best_offers .best_offers_rating i:nth-child(4) {
   color: #fa9e1b;
 }
+
 section.best_offers .item_right p {
   margin: 15px 0;
 }
+
 section.best_offers .item_right .item_right_icon img {
   margin-right: 15px;
 }
+
 section.best_offers .item_right .item_right_btn a {
   color: #000;
   font-size: 14px;
   font-weight: bold;
   transition: all 0.2s ease;
 }
+
 /* end section best_offers */
 /* section.feedback{
   position: relative;
@@ -579,11 +679,13 @@ section.best_offers .item_right .item_right_btn a {
 section.feedback {
   margin: 100px 0;
 }
+
 section.feedback h2 {
   text-align: center;
   margin: 100px 0;
   font-weight: bold;
 }
+
 section.feedback .item {
   margin: 0 auto;
   background: url("../images/feedback_section_bg1.png");
@@ -591,15 +693,19 @@ section.feedback .item {
   background-repeat: no-repeat;
   min-height: 537px;
   padding: 0 207px;
+  margin-bottom: 100px;
 }
+
 section.feedback .item:nth-child(2) {
   background: url("../images/feedback_section_bg2.png");
   background-position: top center;
 }
+
 section.feedback .item:last-child {
   background: url("../images/feedback_section_bg3.png");
   background-position: top center;
 }
+
 section.feedback .item_top {
   display: flex;
   justify-content: center;
@@ -612,6 +718,7 @@ section.feedback .item_top {
   left: -170px;
   top: -35px;
 }
+
 section.feedback .item_bottom {
   background-color: rgba(49, 18, 75, 0.8);
   min-width: 414px;
@@ -620,6 +727,7 @@ section.feedback .item_bottom {
   left: -207px;
   bottom: -225px;
 }
+
 section.feedback .author_fb {
   display: inline-block;
   background-color: #fff;
@@ -628,10 +736,12 @@ section.feedback .author_fb {
   left: 40px;
   padding: 10px 20px;
 }
+
 section.feedback .author_fb h5 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 section.feedback .content_fb {
   padding: 4px 32px 40px 32px;
 }
@@ -640,60 +750,73 @@ section.feedback .content_fb p {
   font-weight: bold;
   font-size: 20px;
 }
+
 section.feedback .content_fb p,
 section.feedback .content_fb span {
   color: #fff;
 }
+
 section.trending_Hotel {
   border-top: 2px solid #000;
 }
+
 section.trending_Hotel h2 {
   text-align: center;
   margin: 100px 0;
   font-weight: bold;
   font-size: 2.5rem;
 }
+
 section.trending_Hotel .item {
   display: flex;
   margin-bottom: 50px;
 }
+
 section.trending_Hotel .info_hotel {
   margin-left: 15px;
 }
+
 section.trending_Hotel .info_hotel a {
   color: #000;
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
 }
+
 section.trending_Hotel .info_hotel a:hover {
   color: #fa9e1b;
 }
+
 section.trending_Hotel .info_hotel p {
   color: #fa9e1b;
   font-weight: bold;
   margin-bottom: 0;
 }
+
 section.trending_Hotel .info_hotel span {
   text-transform: uppercase;
   color: #929191;
   font-size: 12px;
 }
+
 section.getInTouch {
   min-height: 800px;
   background: url("../images/getintouch_bg.png");
   background-size: cover;
   background-position: center center;
 }
+
 section.getInTouch h2 {
   margin: 60px 0;
   color: #fff;
   font-weight: bold;
   font-size: 2rem;
 }
+
 section.getInTouch .container {
   padding: 0 40px;
 }
+
 section.getInTouch form {
   min-width: 200px;
   min-height: 700px;
@@ -701,9 +824,11 @@ section.getInTouch form {
   border-radius: 35px;
   margin-top: 30px;
 }
+
 section.getInTouch form input:first-child {
   margin-right: 30px;
 }
+
 section.getInTouch form input,
 section.getInTouch form textarea {
   margin-bottom: 30px;
@@ -713,10 +838,12 @@ section.getInTouch form textarea {
   padding-left: 0;
   padding-bottom: 15px;
 }
+
 section.getInTouch form input:focus-visible,
 section.getInTouch form textarea:focus-visible {
   outline: none;
 }
+
 section.getInTouch form input::placeholder,
 section.getInTouch form textarea::placeholder {
   color: #fff;
@@ -741,40 +868,49 @@ section.getInTouch form button:hover {
   transform: scale(1.05);
   opacity: 0.7;
 }
+
 section.getInTouch form button span i {
   font-size: 6px;
   vertical-align: middle;
   padding: 0 3px;
 }
+
 section.getInTouch form button span i:nth-child(2) {
   opacity: 0.6;
 }
+
 section.getInTouch form button span i:last-child {
   opacity: 0.4;
 }
+
 /* footer */
 footer.footer {
   width: 100%;
   min-height: 500px;
   background-color: #31124b;
 }
+
 footer.footer .logoNavBar {
   display: flex;
 }
+
 footer.footer .row {
   padding-top: 50px !important;
 }
+
 footer.footer .footer_description {
   color: #fff;
   font-weight: bold;
   line-height: 2.3;
 }
+
 footer.footer .logoNavBar p {
   padding-left: 12px;
   color: #fff;
   font-size: 36px;
   line-height: 1.2 !important;
 }
+
 footer.footer .footer_social i {
   margin-right: 15px;
   border: 1px solid #fa9e1b;
@@ -782,16 +918,20 @@ footer.footer .footer_social i {
   border-radius: 30px;
   transition: all 0.3s ease;
 }
+
 footer.footer .footer_social i:hover,
 footer.footer .footer_social a:hover i {
   color: #fbb53d;
 }
+
 footer.footer .footer_social a:nth-child(2) i {
   padding: 10px 13px;
 }
+
 footer.footer .blogPost {
   padding-left: 30px;
 }
+
 footer.footer .blogPost h2 {
   margin-top: 35px;
   color: #fff;
@@ -799,20 +939,25 @@ footer.footer .blogPost h2 {
   font-size: 1.5rem;
   padding-bottom: 15px;
 }
+
 footer.footer .blogPost .item_inner {
   display: flex;
   margin-top: 15px;
 }
+
 footer.footer .blogPost .item_inner .item_inner__info {
   margin-left: 15px;
 }
+
 footer.footer .blogPost .item_inner .item_inner__info p {
   color: #fff;
   margin-bottom: 0.5rem;
 }
+
 footer.footer .blogPost .item_inner .item_inner__info span {
   color: #fa9e1b;
 }
+
 footer.footer .tags h2 {
   margin-top: 35px;
   color: #fff;
@@ -821,10 +966,12 @@ footer.footer .tags h2 {
   padding-bottom: 15px;
   text-transform: uppercase;
 }
+
 footer.footer .tags ul li {
   display: inline-block;
   margin-top: 30px;
 }
+
 footer.footer .tags .tag_info {
   color: #fff;
   border: 1px solid #fbb53d;
@@ -832,39 +979,47 @@ footer.footer .tags .tag_info {
   margin-right: 10px;
   transition: all 0.3s ease;
 }
+
 footer.footer .tags .tag_info:hover {
   background-color: #fbb53d;
 }
 footer.footer .contactInfo h2 {
   margin-top: 35px;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   font-size: 1.5rem;
   padding-bottom: 15px;
   text-transform: uppercase;
 }
+
 footer.footer .contactInfo ul li {
   margin-top: 30px;
 }
+
 footer.footer .contactInfo ul li img {
   margin-right: 10px;
 }
+
 footer.footer .contactInfo ul li a {
   transition: all 0.3s ease;
 }
+
 footer.footer .contactInfo ul li a:hover {
   color: #fbb53d;
 }
+
 footer.footer .footer_bottom {
   text-align: center;
   color: #cacaca;
   font-weight: bold;
   margin-top: 70px;
 }
+
 footer.footer .footer_bottom a {
   color: #fa9e1b;
   transition: all 0.2s ease;
 }
+
 footer.footer .footer_bottom a:hover {
   opacity: 0.8;
 }

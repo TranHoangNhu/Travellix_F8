@@ -1,3 +1,4 @@
+// hiệu ứng navbar dính lên thanh trình duyệt và nút backtotop
 $(window).scroll(function () {
   // event fixed navbar when scroll
   var breakpointFixed = 195; // giá trị khi sự kiện fixed navbar bắt đầu
@@ -14,3 +15,38 @@ $(window).scroll(function () {
 $(".back-to-top-button").click(function () {
   $("html, body").animate({ scrollTop: 0 }, 200);
 });
+//kết thúc hiệu ứng navbar dính lên thanh trình duyệt và nút backtotop
+
+//ngăn chặn việc gửi request form lên server
+document.querySelector("button[type=submit]").addEventListener("click", (e) => {
+  e.preventDefault();
+});
+//kết thúc ngăn chặn việc gửi request form lên server
+
+// phần code hiệu ứng cho navbar navigator (lên xuống)
+var childNavbar = document.querySelectorAll(".navbar_navigator ul li");
+childNavbar.forEach(function (item) {
+  item.addEventListener("mouseenter", function () {
+    item.animate(
+      [{ transform: "translateY(0)" }, { transform: "translateY(-5px)" }],
+      {
+        duration: 500,
+        easing: "ease-in-out",
+        fill: "forwards",
+      }
+    );
+  });
+
+  item.addEventListener("mouseleave", function () {
+    item.animate(
+      [{ transform: "translateY(-5px)" }, { transform: "translateY(0)" }],
+      {
+        duration: 500,
+        easing: "ease-in-out",
+        fill: "forwards",
+      }
+    );
+  });
+});
+
+//kết thúc phần code hiệu ứng cho navbar navigator (lên xuống)
