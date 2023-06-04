@@ -1,0 +1,185 @@
+.tour_sydney {
+  padding: 8px 0;
+}
+.tour_sydney .container h2 {
+  text-align: center;
+  margin: 16px 0 90px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #000000;
+}
+@media screen and (max-width: 400px) {
+  .tour_sydney .container h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tour_sydney .container .row {
+    display: block;
+  }
+}
+.tour_sydney .container .row .col {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1280px) {
+  .tour_sydney .container .row .col {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tour_sydney .container .row .col {
+    max-width: 100%;
+    margin-left: 16.953125%;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+}
+.tour_sydney .container .row .col .card {
+  /* width: 334px; */
+  /* height: 100%; */
+  /* padding: 45px 57px 0; */
+  background-color: #f8f8f8;
+  border-radius: 30px 30px 0 0;
+}
+@media screen and (max-width: 1280px) {
+  .tour_sydney .container .row .col .card {
+    margin-right: 9.1796875%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .tour_sydney .container .row .col .card {
+    margin-left: -2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tour_sydney .container .row .col .card {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tour_sydney .container .row .col .card {
+    padding: 0;
+  }
+}
+.tour_sydney .container .row .col .card img {
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+.tour_sydney .container .row .col .card .card-body h5 {
+  /* margin-left: -34px;
+  padding: 0; */
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #212121;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.tour_sydney .container .row .col .card .card-body p {
+  font-style: normal;
+  line-height: 17px;
+  color: #757575;
+  font-size: 12px;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 400px) {
+  .tour_sydney .container .row .col .card .card-body {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.tour_sydney .container .row .col .card .card-body h5 {
+  margin: 8px 0;
+  font-size: 24px;
+  font-weight: 300 !important;
+  color: #000000;
+  line-height: 29.05px;
+  height: 58.09px;
+}
+@media screen and (max-width: 400px) {
+  .tour_sydney .container .row .col .card .card-body h5 {
+    padding: 0 10px;
+  }
+}
+.tour_sydney .container .row .col .card .card-body p {
+  margin-bottom: 13px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #cbc9c9;
+  line-height: 29.05px;
+  height: 129.19px;
+}
+@media screen and (max-width: 400px) {
+  .tour_sydney .container .row .col .card .card-body p {
+    padding: 0 10px;
+  }
+}
+.tour_sydney .container .row .col .card .card-body2 {
+  display: flex;
+  height: 64px;
+  /* margin-left: -57px;
+  margin-right: -57px; */
+}
+@media screen and (max-width: 400px) {
+  .tour_sydney .container .row .col .card .card-body2 {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+  }
+}
+.tour_sydney .container .row .col .card .card-body2 a {
+  font-size: 24px;
+  font-weight: 200;
+  color: #000000;
+  background-color: #f8b653;
+  padding: 17px 27px 17px 39px;
+  border: 1px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
+  width: 52.3952095808%;
+  line-height: 29.05px;
+}
+@media screen and (max-width: 400px) {
+  .tour_sydney .container .row .col .card .card-body2 a {
+    padding: 17px 0;
+    max-width: 50%;
+  }
+}
+.tour_sydney .container .row .col .card .card-body2 span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  /* background-color: #dedddc; */
+  /* padding: 17px 0 17px 66px; */
+  padding: 17px 0px;
+  /* border: 1px solid transparent; */
+  /* border-radius: 15px; */
+  cursor: pointer;
+  width: 47.9041916168%;
+  line-height: 29.05px;
+  text-align: center;
+  width: 50%;
+  /* border: 1px #0000008c dashed; */
+}
+@media screen and (max-width: 400px) {
+  .tour_sydney .container .row .col .card .card-body2 span {
+    padding: 17px 30px 0 20px;
+    width: 50%;
+    text-align: right;
+  }
+}

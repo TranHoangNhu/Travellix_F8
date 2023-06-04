@@ -1,0 +1,67 @@
+{
+  "content": [
+    {
+      "src": "./images/blue_moutain_boat_ride.png",
+      "title": "Tour Ngày đi Núi Blue Mountains từ Sydney và Đi Thuyền Trên Sông",
+      "description": "Tận hưởng một ngày thật tuyệt vời với chuyến tham quan núi Blue Mountains khởi hành từ Sydney!",
+      "price": "2,912,046",
+      "vote": "5.0"
+    },
+    {
+      "src": "./images/helicopter_ride_sydney_habour.png",
+      "title": "Tour Đi Trực Thăng ở Cảng Sydney",
+      "description": "Bay 1 chuyến trực thăng 20-25 phút đầy phấn khích quanh Cảng Sydney xinh đẹp, với hướng dẫn tiếng Anh để bạn biết được những kiến trúc nổi tiếng của thành phố.",
+      "price": "3,678,374",
+      "vote": "5.0"
+    },
+    {
+      "src": "./images/food_wine_hunter_valley.png",
+      "title": "Tham gia hành trình ẩm thực để trải nghiệm ẩm thực ngon lành của Úc cùng 1 đầu bếp trong tour ẩm thực và rượu vang gourmet đến Thung lũng Hunter từ Sydney.",
+      "description": "Tham gia hành trình ẩm thực để trải nghiệm ẩm thực ngon lành của Úc cùng 1 đầu bếp trong tour ẩm thực và rượu vang gourmet đến Thung lũng Hunter từ Sydney",
+      "price": "3,632,394",
+      "vote": "4.9"
+    },
+    {
+      "src": "./images/port_stephen_korean_guide.png",
+      "title": "Tour Ngày Đến Port Stephens với Hướng Dẫn Viên Tiếng Hàn",
+      "description": "Tham gia chuyến tham quan trong ngày đến Port Stephens bao gồm Hướng dẫn viên Hàn Quốc! Tận hưởng chuyến du ngoạn bằng cá heo, phiêu lưu trượt cát và trải nghiệm nếm rượu vang bao gồm trong gói.",
+      "price": "2,069,085",
+      "vote": "4.5"
+    },
+    {
+      "src": "./images/walking_tour_opera_house.png",
+      "title": "Tour Đi Bộ Tham Quan Nhà Hát Opera Sydney với Hướng Dẫn Viên",
+      "description": "Tìm hiểu Nhà hát Opera Sydney trong chuyến đi bộ có hướng dẫn này với nhiều ngôn ngữ khác nhau bao gồm tiếng Nhật, tiếng Quan Thoại, tiếng Hàn và tiếng Anh. Ghé thăm các địa điểm nổi bật, tìm hiểu về lịch sử phong phú của nhà.",
+      "price": "659,042",
+      "vote": "4.5"
+    },
+    {
+      "src": "./images/balloon_camden_valley.png",
+      "title": "Vé Khinh Khí Cầu Ngắm Bình Minh ở Thung Lũng Camden",
+      "description": "Ngắm nhìn bình minh từ trên cao qua toàn cảnh tuyệt đẹp của thung lũng Camden ngay bên ngoài vùng ngoại ô Sydney! Tùy chọn các chuyến bay khinh khí cầu với gói dịch vụ đưa đón thuận tiện và/hoặc bữa sáng cho bạn một ngày khởi đầu tuyệt vời với chuyến phiêu lưu trong nội đô và quanh Sydney.",
+      "price": "5,195,703",
+      "vote": "5.0"
+    },
+    {
+      "src": "./images/skiing_in_perisher.png",
+      "title": "Tour Ngày Trượt Tuyết ở Perisher",
+      "description": "Tận hưởng một ngày tuyệt vời ở đây khi bạn tham gia Tour ngày tuyết rơi Perisher này!",
+      "price": "2,145,718",
+      "vote": "4.0"
+    },
+    {
+      "src": "./images/skywalk_sydney_tower_eye.png",
+      "title": "Vé Vivid SKYWALK Tại Sydney Tower Eye",
+      "description": "Tận hưởng một trong những lễ hội ánh sáng lớn nhất thế giới, Vivid Sydney, bằng cách nhìn thấy nó từ những đỉnh cao tuyệt vời tại Sydney Tower Eye qua Vivid SKYWALK!",
+      "price": "SOLD OUT!",
+      "vote": "5.0"
+    },
+    {
+      "src": "./images/canberra_floriade_festival.png",
+      "title": "Tour Ngày Lễ Hội Hoa Canberra Floriade Từ Sydney",
+      "description": "Yêu thích những bông hoa nở rộ và đầy màu sắc của Lễ hội hoa Floriade ở Canberra trong chuyến tham quan vui vẻ trong ngày từ Sydney!",
+      "price": "536,429",
+      "vote": "4.3"
+    }
+  ]
+}

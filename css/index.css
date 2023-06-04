@@ -2,6 +2,7 @@
   font-family: "beyond_the_mountains";
   src: url("../fonts/beyond_the_mountains.ttf") format("truetype");
 }
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Xanh+Mono:ital@0;1&display=swap");
 
 * {
   margin: 0;
@@ -57,6 +58,7 @@ header.header {
     url("../images/bg_header.webp");
   background-size: cover;
   background-position: center center;
+  height: 938px;
 }
 
 /* navtop */
@@ -168,12 +170,47 @@ nav.navbar {
   cursor: pointer;
   color: #fa9e1b;
 }
-
+#offcanvasRight {
+  background: linear-gradient(-300deg, #fa9e1b, #8d4fff);
+}
+.btn_offcanvas {
+  margin-top: -23px;
+  margin-left: 10px;
+}
+.btn_offcanvas i {
+  font-size: 26px;
+}
+.middle_title_header{
+  padding-top: 150px;
+}
 .middle_title_header p {
   color: #fff;
   font-weight: bold;
   text-align: center;
   font-size: 100px;
+}
+.offcanvas-header .btn-close {
+  background: none;
+  margin: 5px;
+  opacity: 1;
+}
+.offcanvas-header .btn-close > i {
+  font-size: 24px;
+  color: #fff;
+}
+.offcanvas-header .btn-close:hover > i {
+  color: #fbb53d !important;
+}
+.offcanvas-body ul li {
+  padding: 15px;
+}
+.offcanvas-body ul li a {
+  font-family: "beyond_the_mountains";
+  color: #fff !important;
+  font-size: 24px;
+}
+.offcanvas-body ul li:hover a {
+  color: #fbb53d !important;
 }
 
 .middle_title_header p:nth-child(2) {
@@ -199,6 +236,7 @@ nav.navbar {
   font-weight: bold;
   transition: all 0.5s ease;
   background-size: 200%;
+  /* margin-bottom: 100px; */
 }
 
 .button_header button span i {
@@ -425,15 +463,21 @@ section.bestTour .bestTour__card .item1 .bestTour__card__country span {
   color: #ffeb8d;
 }
 
-.bestTour__card__country .bestTour__card__country__title__rating i:nth-child(2) {
+.bestTour__card__country
+  .bestTour__card__country__title__rating
+  i:nth-child(2) {
   color: #fed46b;
 }
 
-.bestTour__card__country .bestTour__card__country__title__rating i:nth-child(3) {
+.bestTour__card__country
+  .bestTour__card__country__title__rating
+  i:nth-child(3) {
   color: #fbb53d;
 }
 
-.bestTour__card__country .bestTour__card__country__title__rating i:nth-child(4) {
+.bestTour__card__country
+  .bestTour__card__country__title__rating
+  i:nth-child(4) {
   color: #fa9e1b;
 }
 
@@ -484,9 +528,11 @@ section.bestTour .bestTour__card .item1 button:hover {
 
 /* section deluxe package */
 section.deluxe_package {
-  background: linear-gradient(to right,
+  background: linear-gradient(
+      to right,
       rgba(250, 157, 27, 0.5),
-      rgba(141, 79, 255, 0.5)),
+      rgba(141, 79, 255, 0.5)
+    ),
     url(../images/background_sea.jpg);
   width: 100%;
   display: flex;
