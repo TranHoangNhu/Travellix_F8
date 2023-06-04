@@ -56,6 +56,7 @@ childNavbar.forEach(function (item) {
 var defaultNavbar = document.querySelector(".navbar_navigator"); // đặt biến cho phần navbar mặc định
 var toggleNav = document.querySelector(".btn_offcanvas");
 var breakMobile = window.matchMedia("(max-width: 576px)"); //đặt biến để check phần breakpoint khi giao diện chuyển sang mobile
+var menuPopup = document.querySelector("#offcanvasRight");
 
 // Function to be executed when the breakpoint is reached
 function handleMobileChange(event) {
@@ -66,6 +67,7 @@ function handleMobileChange(event) {
     defaultNavbar.style.display = "none";
     // hiện toggle navbar kế bên nút search
     toggleNav.style.visibility = "visible";
+    offcanvasRight.style.zIndex = "10000";
   }
   else {
     console.log("mobile breakpoint not reached");
@@ -73,6 +75,7 @@ function handleMobileChange(event) {
     defaultNavbar.style.display = "block";
     // ẩn toggle navbar kế bên nút search
     toggleNav.style.visibility = "hidden";
+    offcanvasRight.style.zIndex = "-1";
   }
 }
 
